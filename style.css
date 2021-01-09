@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8vh 12.8vh 29.6vh 12.8vh;
+}
+
+.header-img {
+    height: 7.68vh;
+}
+
+.header-button {
+    height: 7.68vh;
+    width: 14.641288433382138vw;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+}
