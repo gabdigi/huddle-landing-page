@@ -41,11 +41,15 @@ section h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-section p {
+section h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-1-p {
     font-size: small;
     margin-top: 8.64vh;
-   margin-right: 5.85vw;
-   font-family: 'Poppins', sans-serif;
+    margin-right: 5.85vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-1 {
@@ -75,12 +79,36 @@ section p {
 
 .div-section-2-cadre-1 {
     display: flex;
-    border: 1px solid black;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1rem;
     box-shadow: 0 5px 31px -3px rgba(0,0,0,.25);
 }
 
+.div-section-2-cadre-1-left {
+    align-items: center;
+    margin: 0 12vw 0 12vw;
+}
+
+.div-section-2-cadre-1-right {
+    
+}
+
 img.section-2-img {
-    height: 320px;
+    height: 330px;
+    margin: 8.8vh 15px 8.8vh 2.92vw;
+}
+
+.div-section-2-cadre-1 h1 {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.div-section-2-cadre-1 p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5.5vh;
+    font-size: 0.8rem;
+    color: #848B91;
 }
 
 @media screen and (max-width: 768px) {
