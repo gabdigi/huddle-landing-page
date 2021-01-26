@@ -103,7 +103,6 @@ img.section-2-img {
 }
 
 .div-section-2-cadre-1 p {
-    font-family: 'Poppins', sans-serif;
     margin-top: 5.5vh;
     font-size: 0.8rem;
     color: #848B91;
@@ -120,6 +119,43 @@ img.section-2-img {
 
 img.section-2-img {
     height: 330px;
+}
+
+.div-section-2-cadre-2-right {
+    margin : 0 2.56vw 0 12vw;
+}
+
+.div-section-2-cadre-2-right p {
+    font-size: 0.72em;
+    color: #848B91;
+    margin : 5.5vh 0 0 0;
+}
+
+img.section-2-img {
+    height: 330px;
+}
+
+.div-section-2-cadre-3 {
+    margin: 6.4vh 0 0 0;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 5px 31px -3px rgba(0,0,0,.25);
+}
+
+.div-section-2-cadre-3-left {
+    margin : 0 2.56vw 0 12vw;
+}
+
+.div-section-2-cadre-3-left p{
+    font-size: 0.72em;
+    color: #848B91;
+    margin : 5.5vh 0 0 0;
+}
+
+.div-section-2-cadre-3-right {
+    margin : 0 2.56vw 0 12vw;
 }
 
 @media screen and (max-width: 768px) {
